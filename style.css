@@ -1,0 +1,47 @@
+img{
+  position: relative;
+  left: 50px;
+  margin-top: 250px;
+  opacity:0;
+  display: none;
+}
+
+#stripInner{
+        background-color: #4a80aa;
+        color: #ffffff;
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Poppins', sans-serif;  
+        font-size: 150%;
+        
+        border: 5px #000000 solid;
+        padding: auto;
+        text-align: center;
+}
+
+  #stripOuter{
+        background-color: #ffffff;
+        color: #000000;
+        font-weight: 900;
+   
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+
+/*on phone */
+@media screen and (max-width: 480px) { 
+    #stripOuter{
+        background-color: #ffffff;
+        color: #000000;
+        font-weight: 900;
+   
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+
+        margin-top: 75px;
+        margin-left: 0px;
+  }
