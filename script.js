@@ -14,13 +14,13 @@ document.addEventListener('DOMContentLoaded', function() {
 }); 
 */
 
-window.onload = function() {
+window.onload = function () {
   var image = document.getElementById("itsemil");
   var opacity = 0;
-  image.style.display = 'block';
+  image.style.display = "block";
 
-  setTimeout(function() {
-    var timer = setInterval(function() {
+  setTimeout(function () {
+    var timer = setInterval(function () {
       if (opacity >= 1) {
         clearInterval(timer);
       }

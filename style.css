@@ -1,47 +1,50 @@
-img{
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Poppins&display=swap");
+
+img {
   position: relative;
   left: 50px;
   margin-top: 250px;
-  opacity:0;
+  opacity: 0;
   display: none;
 }
 
-#stripInner{
-        background-color: #4a80aa;
-        color: #ffffff;
-        font-family: 'Kanit', sans-serif;
-        font-family: 'Poppins', sans-serif;  
-        font-size: 150%;
-        
-        border: 5px #000000 solid;
-        padding: auto;
-        text-align: center;
+#stripInner {
+  background-color: #ebebeb;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-size: 150%;
+
+  border: 5px #000000 solid;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  margin: auto; /*Remove this to move textbox to left side*/
 }
 
-  #stripOuter{
-        background-color: #ffffff;
-        color: #000000;
-        font-weight: 900;
-   
-        padding-left: 15px;
-        padding-right: 15px;
-        text-align: center;
+#stripOuter {
+  background-color: #ffffff;
+  color: #000000;
 
-        margin-top: 100px;
-        margin-left: 100px;
-    }
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+
+  margin-top: 100px;
+  margin-left: 100px;
+}
 
 /*on phone */
-@media screen and (max-width: 480px) { 
-    #stripOuter{
-        background-color: #ffffff;
-        color: #000000;
-        font-weight: 900;
-   
-        padding-left: 15px;
-        padding-right: 15px;
-        text-align: center;
+@media screen and (max-width: 480px) {
+  #stripOuter {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 900;
 
-        margin-top: 75px;
-        margin-left: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+
+    margin-top: 75px;
+    margin-left: 0px;
   }
+}
